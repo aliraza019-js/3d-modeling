@@ -1,4 +1,3 @@
-// src/app/components/ThreeScene.js
 'use client';
 
 import React from 'react';
