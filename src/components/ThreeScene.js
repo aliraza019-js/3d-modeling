@@ -24,7 +24,10 @@ export default function ThreeScene() {
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
         <pointLight position={[-10, -10, -10]} />
         <PerspectiveCamera makeDefault position={[0, 1, 3]} />
-        <Character url="/G_TCM.glb" />
+        <Character 
+        url="/Human_Body.glb" 
+        secondUrl="/G_TCM.glb"
+        />
       </Canvas>
     </div>
   );
